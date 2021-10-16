@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setInterval()</title>
+    <style>
+      body {
+        background-color: #292929;
+        color: #bb86fc;
+      }
+      :root{
+          --bg-one: #FFAF5F;
+          --bg-two: #7E8CE0;
+          --bg-three: #4ACFAC;
+      }
+      .container {
+        height: 100vh;
+        display: flex;
+        flex-flow: column wrap;
+        padding-top: 100px;
+        align-items: center;
+      }
+      .box {
+          width: 300px;
+          height: 250px;
+          background-color: var(--bg-one);
+          border-radius: 5px;
+      }
+      button{
+          background-color: var(--bg-two);
+          padding: 8px 30px;
+          margin-top: 20px;
+          border: none;
+          border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+        <button>Click</button>
+    </div>
+
+    <script src="./js/interval.js"></script>
+  </body>
+</html>
